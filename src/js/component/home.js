@@ -8,7 +8,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import Navbar from "./navbar.js";
 import Jumbotron from "./jumbotron.js";
 import Card from "./card.js";
-
+import Footer from "./footer.js";
 export function Home() {
 	return (
 		<div>
@@ -16,12 +16,13 @@ export function Home() {
 			<div className="container">
 				<Jumbotron />
 				<div className="row">
-					<Card />
-					<Card />
-					<Card />
-					<Card />
+					<Card img="https://picsum.photos/200/200" />
+					<Card img="https://picsum.photos/200/200" />
+					<Card img="https://picsum.photos/200/200" />
+					<Card img="https://picsum.photos/200/200" />
 				</div>
 			</div>
+			<Footer />
 		</div>
 	);
 }
